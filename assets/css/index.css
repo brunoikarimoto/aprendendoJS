@@ -1,0 +1,29 @@
+html{
+    font-family: sans-serif;
+}
+
+div.box{
+    width: 90%;
+    height: 20rem;
+    border: 1px solid black;
+    margin: 2rem auto;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+div.box p{
+    margin-left: 2rem;
+}
+
+div.user{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+}
+
+div.user>button{
+    width: 16rem;
+}
